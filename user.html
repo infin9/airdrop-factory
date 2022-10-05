@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>ClaimKitty</title>
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script defer src="script.js"></script>
+  </head>
+  <header>
+    <img class="logo" src="Logo.png" alt="ClaimKitty Logo" width="80px" height="80px">
+    <div class="button" id="connect-wallet">
+      Connect Wallet
+    </div>
+  </header>
+
+  <body>
+    <div class="container" style="bottom: 30px;">
+      <div class="panel">
+        <h1>Welcome to ClaimKitty. <br>Let's see all Kitties claimable!</h1>
+        <input class="form" type="text" name="searchAirdrop" placeholder="Insert Here Token Address to claim">
+        <div class="button" id="claimAll">Search Token</div>
+        <div class="claimList" style="margin-top: 20px;">
+          <div class="claimPanel">Token Name - Amount <div class="button" id="claimButton">Claim</div></div>
+        </div>
+
+      </div>
+
+      <div class="panel">
+        <h1>Claim left Tokens from your own Kitties</h1>
+        <p> <strong>Please Note:</strong> Your left tokens will be split into three tranches in order to avoid any dump of the Token. First tranche will be available starting from the next day of the AirDrop end. The second one three months after and the third one after six months. You will have 2 weeks to claim your tokens. <br> <strong>Example:</strong> If for example your AirDrop ends in 31/12, in 01/01 you will be able to claim the first tranche of your tokens until 15/01. For the second tranche from 01/04 to 15/04 and the last one from 01/07 to 15/07. </p>
+        <div class="claimList">
+          <p><strong>Token Name - Amount - Claimable Until</strong></p>
+          <div class="claimPanel">AirDrop Token 1 - 210.3 - 06/06<div class="button" id="claimButton">Claim</div></div>
+        </div>
+        <div class="button" id="claimAll">Claim All</div>
+      </div>
+      <p><br></p>
+
+    </div>
+
+  </body>
+</html>
